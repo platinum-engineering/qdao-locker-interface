@@ -1,0 +1,178 @@
+// Base
+@import "~uikit/src/scss/theme/variables.scss";
+
+@import "~uikit/src/scss/theme/base.scss";
+
+// Elements
+@import "~uikit/src/scss/theme/link.scss";
+@import "~uikit/src/scss/theme/heading.scss";
+@import "~uikit/src/scss/theme/divider.scss";
+@import "~uikit/src/scss/theme/list.scss";
+@import "~uikit/src/scss/theme/description-list.scss";
+@import "~uikit/src/scss/theme/table.scss";
+@import "~uikit/src/scss/theme/icon.scss";
+@import "~uikit/src/scss/theme/form-range.scss";
+@import "~uikit/src/scss/theme/form.scss";
+@import "~uikit/src/scss/theme/button.scss";
+
+// Layout
+@import "~uikit/src/scss/theme/section.scss";
+@import "~uikit/src/scss/theme/container.scss";
+@import "~uikit/src/scss/theme/grid.scss";
+@import "~uikit/src/scss/theme/tile.scss";
+@import "~uikit/src/scss/theme/card.scss";
+
+// Common
+@import "~uikit/src/scss/theme/close.scss";
+@import "~uikit/src/scss/theme/spinner.scss";
+@import "~uikit/src/scss/theme/marker.scss";
+@import "~uikit/src/scss/theme/totop.scss";
+@import "~uikit/src/scss/theme/alert.scss";
+@import "~uikit/src/scss/theme/badge.scss";
+@import "~uikit/src/scss/theme/label.scss";
+@import "~uikit/src/scss/theme/overlay.scss";
+@import "~uikit/src/scss/theme/article.scss";
+@import "~uikit/src/scss/theme/comment.scss";
+@import "~uikit/src/scss/theme/search.scss";
+
+// Navs
+@import "~uikit/src/scss/theme/nav.scss";
+@import "~uikit/src/scss/theme/navbar.scss";
+@import "~uikit/src/scss/theme/subnav.scss";
+@import "~uikit/src/scss/theme/breadcrumb.scss";
+@import "~uikit/src/scss/theme/pagination.scss";
+@import "~uikit/src/scss/theme/tab.scss";
+@import "~uikit/src/scss/theme/slidenav.scss";
+@import "~uikit/src/scss/theme/dotnav.scss";
+@import "~uikit/src/scss/theme/thumbnav.scss";
+
+// JavaScript
+@import "~uikit/src/scss/theme/accordion.scss";
+@import "~uikit/src/scss/theme/drop.scss";
+@import "~uikit/src/scss/theme/dropdown.scss";
+@import "~uikit/src/scss/theme/modal.scss";
+@import "~uikit/src/scss/theme/lightbox.scss";
+@import "~uikit/src/scss/theme/sticky.scss";
+@import "~uikit/src/scss/theme/offcanvas.scss";
+@import "~uikit/src/scss/theme/leader.scss";
+
+// Additional
+@import "~uikit/src/scss/theme/iconnav.scss";
+@import "~uikit/src/scss/theme/notification.scss";
+@import "~uikit/src/scss/theme/tooltip.scss";
+@import "~uikit/src/scss/theme/placeholder.scss";
+@import "~uikit/src/scss/theme/progress.scss";
+@import "~uikit/src/scss/theme/sortable.scss";
+@import "~uikit/src/scss/theme/countdown.scss";
+
+// Utilities
+@import "~uikit/src/scss/theme/animation.scss";
+@import "~uikit/src/scss/theme/width.scss";
+@import "~uikit/src/scss/theme/height.scss";
+@import "~uikit/src/scss/theme/text.scss";
+@import "~uikit/src/scss/theme/column.scss";
+@import "~uikit/src/scss/theme/background.scss";
+@import "~uikit/src/scss/theme/align.scss";
+@import "~uikit/src/scss/theme/utility.scss";
+@import "~uikit/src/scss/theme/margin.scss";
+@import "~uikit/src/scss/theme/padding.scss";
+@import "~uikit/src/scss/theme/position.scss";
+@import "~uikit/src/scss/theme/transition.scss";
+@import "~uikit/src/scss/theme/inverse.scss";
+
+// Components
+
+// Base
+@import "~uikit/src/scss/components/variables.scss";
+@import "~uikit/src/scss/components/mixin.scss";
+@import "~uikit/src/scss/components/base.scss";
+
+// Elements
+@import "~uikit/src/scss/components/link.scss";
+@import "~uikit/src/scss/components/heading.scss";
+@import "~uikit/src/scss/components/divider.scss";
+@import "~uikit/src/scss/components/list.scss";
+@import "~uikit/src/scss/components/description-list.scss";
+@import "~uikit/src/scss/components/table.scss";
+@import "~uikit/src/scss/components/icon.scss";
+@import "~uikit/src/scss/components/form-range.scss";
+@import "~uikit/src/scss/components/form.scss"; // After: Icon, Form Range
+@import "~uikit/src/scss/components/button.scss";
+
+// Layout
+@import "~uikit/src/scss/components/section.scss";
+@import "~uikit/src/scss/components/container.scss";
+@import "~uikit/src/scss/components/grid.scss";
+@import "~uikit/src/scss/components/tile.scss";
+@import "~uikit/src/scss/components/card.scss";
+
+// Common
+@import "~uikit/src/scss/components/close.scss"; // After: Icon
+@import "~uikit/src/scss/components/spinner.scss"; // After: Icon
+@import "~uikit/src/scss/components/totop.scss"; // After: Icon
+@import "~uikit/src/scss/components/marker.scss"; // After: Icon
+@import "~uikit/src/scss/components/alert.scss"; // After: Close
+@import "~uikit/src/scss/components/badge.scss";
+@import "~uikit/src/scss/components/label.scss";
+@import "~uikit/src/scss/components/overlay.scss"; // After: Icon
+@import "~uikit/src/scss/components/article.scss"; // After: Subnav
+@import "~uikit/src/scss/components/comment.scss"; // After: Subnav
+@import "~uikit/src/scss/components/search.scss"; // After: Icon
+
+// Navs
+@import "~uikit/src/scss/components/nav.scss";
+@import "~uikit/src/scss/components/navbar.scss"; // After: Card, Grid, Nav, Icon, Search
+@import "~uikit/src/scss/components/subnav.scss";
+@import "~uikit/src/scss/components/breadcrumb.scss";
+@import "~uikit/src/scss/components/pagination.scss";
+@import "~uikit/src/scss/components/tab.scss";
+@import "~uikit/src/scss/components/slidenav.scss"; // After: Icon
+@import "~uikit/src/scss/components/dotnav.scss";
+@import "~uikit/src/scss/components/thumbnav.scss";
+
+// JavaScript
+@import "~uikit/src/scss/components/accordion.scss";
+@import "~uikit/src/scss/components/drop.scss"; // After: Card
+@import "~uikit/src/scss/components/dropdown.scss"; // After: Card
+@import "~uikit/src/scss/components/modal.scss"; // After: Close
+@import "~uikit/src/scss/components/lightbox.scss"; // After: Close
+@import "~uikit/src/scss/components/slideshow.scss";
+@import "~uikit/src/scss/components/slider.scss";
+@import "~uikit/src/scss/components/sticky.scss";
+@import "~uikit/src/scss/components/offcanvas.scss";
+@import "~uikit/src/scss/components/switcher.scss";
+@import "~uikit/src/scss/components/leader.scss";
+// Scrollspy
+// Toggle
+// Scroll
+
+// Additional
+@import "~uikit/src/scss/components/iconnav.scss";
+@import "~uikit/src/scss/components/notification.scss";
+@import "~uikit/src/scss/components/tooltip.scss";
+@import "~uikit/src/scss/components/placeholder.scss";
+@import "~uikit/src/scss/components/progress.scss";
+@import "~uikit/src/scss/components/sortable.scss";
+@import "~uikit/src/scss/components/countdown.scss";
+
+// Utilities
+@import "~uikit/src/scss/components/animation.scss";
+@import "~uikit/src/scss/components/width.scss";
+@import "~uikit/src/scss/components/height.scss";
+@import "~uikit/src/scss/components/text.scss";
+@import "~uikit/src/scss/components/column.scss";
+@import "~uikit/src/scss/components/cover.scss";
+@import "~uikit/src/scss/components/background.scss";
+@import "~uikit/src/scss/components/align.scss";
+@import "~uikit/src/scss/components/svg.scss";
+@import "~uikit/src/scss/components/utility.scss";
+@import "~uikit/src/scss/components/flex.scss"; // After: Utility
+@import "~uikit/src/scss/components/margin.scss";
+@import "~uikit/src/scss/components/padding.scss";
+@import "~uikit/src/scss/components/position.scss";
+@import "~uikit/src/scss/components/transition.scss";
+@import "~uikit/src/scss/components/visibility.scss";
+@import "~uikit/src/scss/components/inverse.scss";
+
+// Need to be loaded last
+@import "~uikit/src/scss/components/print.scss";

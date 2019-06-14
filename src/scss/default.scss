@@ -1,0 +1,73 @@
+html, body {
+  font-size: 10px;
+  @media all and (min-width: 1600px) {
+    font-size: 11px;
+  }
+  @media all and (min-width: 1800px) {
+    font-size: 13px;
+  }
+  font-family: $global-font-family;
+  letter-spacing: .4px;
+  color: #FFF;
+  background: $global-primary-background;
+}
+
+a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  color: #FFF;
+  font-weight: 600;
+  font-family: $alter-font-family;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2, h3, h4 {
+  font-size: 1.8rem;
+  @media all and (max-width: $breakpoint-small-max) {
+    font-size: 2.4rem;
+  }
+}
+
+.wrapper, .wrap  {
+  max-width: 100vw - 2 * $wrapper-space;
+  margin: 0 auto;
+}
+
+.uk-notification-message {
+  font-size: 1.8rem;
+  padding: 2rem;
+  background: rgba($global-primary-background, .95);
+
+  .uk-notification-close {
+    color: #FFF;
+  }
+}
+
+footer {
+  .wrapper {
+    border-top: solid 1px rgba(#FFF, .1);
+    padding: 5.5rem 0;
+    font-size: 1.4rem;
+
+    .address {
+      margin: 2rem 0;
+      line-height: 1.29;
+      color: rgba(#FFF, .7);
+
+      > div {
+        margin-bottom: .5rem;
+      }
+    }
+
+    p {
+      line-height: 1.29;
+      color: rgba(#FFF, .7);
+    }
+  }
+}

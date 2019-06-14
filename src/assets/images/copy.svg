@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="locked-qdao-check-your-address" transform="translate(-818.000000, -769.000000)" stroke="#FFFFFF">
+            <g id="Group-10-Copy" transform="translate(125.000000, 659.000000)">
+                <g id="Group-5" transform="translate(0.000000, 60.000000)">
+                    <g id="copy" transform="translate(700.500000, 57.500000) scale(-1, -1) translate(-700.500000, -57.500000) translate(694.000000, 51.000000)">
+                        <path d="M3.03333333,9.96666667 L0.866666667,9.96666667 C0.388019883,9.96666667 -5.24049774e-17,9.57864678 0,9.1 L0,0.866666667 C5.24049774e-17,0.388019883 0.388019883,-2.4514092e-16 0.866666667,0 L9.1,0 C9.57864678,-1.9894829e-16 9.96666667,0.388019883 9.96666667,0.866666667 L9.96666667,3.03333333" id="Path"></path>
+                        <path d="M3.9,3.03333333 L12.1333333,3.03333333 C12.6119801,3.03333333 13,3.42135322 13,3.9 L13,12.1333333 C13,12.6119801 12.6119801,13 12.1333333,13 L3.9,13 C3.42135322,13 3.03333333,12.6119801 3.03333333,12.1333333 L3.03333333,3.9 C3.03333333,3.42135322 3.42135322,3.03333333 3.9,3.03333333 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

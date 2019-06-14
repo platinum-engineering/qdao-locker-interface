@@ -1,0 +1,30 @@
+.uk-pagination {
+  li {
+    text-align: center;
+    padding-left: .8rem;
+    &:first-child {
+      padding-left: 2rem;
+    }
+    a, span {
+      padding: 0 .5rem;
+      line-height: 2.4rem;
+    }
+    a {
+      background-color: #21201f;
+      color: #FFF;
+      text-decoration: none;
+    }
+
+    &.uk-active {
+      span {
+        background-color: #FFF;
+        color: #000;
+        font-weight: bold;
+      }
+    }
+    &.uk-disabled {
+      span {
+      }
+    }
+  }
+}

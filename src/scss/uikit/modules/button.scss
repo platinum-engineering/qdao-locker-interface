@@ -1,0 +1,71 @@
+.uk-button {
+  &.uk-button-text {
+    &:before {
+      display: none;
+    }
+  }
+
+  &.alter {
+    background-color: $global-alter-color;
+    color: #FFF;
+    border-radius: .5rem;
+    letter-spacing: 2.1px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 .8rem;
+    line-height: 2.4rem;
+
+    &[disabled] {
+      opacity: .5;
+    }
+  }
+
+  &.main,
+  &.alter {
+    color: #FFF;
+  }
+
+  &.main {
+    border-radius: 0;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 1.8px;
+    line-height: 4.8rem;
+    font-weight: 900;
+    background-color: $global-alter-background;
+
+    > * {
+      height: 1.8rem;
+      vertical-align: middle;
+    }
+
+    &[disabled] {
+      color: rgba(#FFF, .8);
+      > * {
+        opacity: .8;
+      }
+    }
+
+    &.soon {
+      position: relative;
+
+      &:after {
+        content: "soon";
+        position: absolute;
+        top: -.2rem;
+        right: -.4rem;
+        color: #FFF;
+        background: $global-alter-color;
+        font-size: .9rem;
+        line-height: 1.1rem;
+        padding: 0 .5rem;
+        border-radius: .3rem;
+        font-weight: bold;
+      }
+    }
+
+    &.alter  {
+      background-color: $global-alter-color;
+    }
+  }
+}

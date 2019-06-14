@@ -1,0 +1,112 @@
+main {
+  display: flex;
+  min-height: calc(100vh - #{$header-height});
+  font-size: 1.4rem;
+
+  > .sidebar {
+    background: $global-alter-background;
+
+    .sidebar-wrapper {
+      width: $sidebar-width;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          display: block;
+
+          a {
+            display: block;
+            width: $sidebar-width;
+            padding: $template-gutter-padding;
+            box-sizing: border-box;
+            text-align: center;
+            img, svg  {
+              opacity: .6;
+            }
+
+            &.default {
+              padding-bottom: $template-gutter-padding * 2;
+              img, svg  {
+                opacity: 1;
+              }
+            }
+
+            &.uk-active {
+              img, svg  {
+                opacity: 1;
+              }
+              background: rgba(#FFF, .1);
+            }
+          }
+        }
+      }
+
+      @media all and (max-width: $breakpoint-small) {
+        width: $sidebar-width-s;
+
+        ul li a {
+          width: $sidebar-width-s;
+          padding-left: $template-gutter-padding/2;
+          padding-right: $template-gutter-padding/2;
+        }
+      }
+    }
+  }
+
+  > .content  {
+    padding: 2rem;
+    width: calc(100% - 4.5rem);
+    box-sizing: border-box;
+
+    @media all and (min-width: $breakpoint-medium) {
+      padding: 4rem 5.1rem;
+      width: calc(100% - 7.5rem);
+    }
+
+
+    overflow-x: auto;
+
+    section {
+      width: 72.6rem;
+      max-width: 100%;
+    }
+
+    .float-box {
+      background: $global-alter-background;
+      padding: 2.7rem 3.3rem;
+      letter-spacing: 0.5px;
+      margin-bottom: 2rem;
+
+
+      @media all and (min-width: $breakpoint-medium) {
+        min-width: 25rem;
+      }
+
+      .uk-list-divider {
+        margin: 0;
+        > li:nth-child(n+2) {
+          padding-top: 1.5rem;
+          margin-top: 1.5rem;
+        }
+        li {
+          .title  {
+            display: block;
+            font-size: 1.5rem;
+          }
+          .value {
+            display: block;
+            font-size: 1.8rem;
+            font-weight: bold;
+
+            > * {
+              margin: 0 .5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

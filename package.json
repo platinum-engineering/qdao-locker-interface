@@ -1,0 +1,41 @@
+{
+  "name": "qdao-tools",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "eth-lib": "^0.2.7",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6",
+    "register-service-worker": "^1.6.2",
+    "uikit": "^3.1.5",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.0",
+    "vue-fragment": "^1.5.1",
+    "vue-i18n": "^8.0.0",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

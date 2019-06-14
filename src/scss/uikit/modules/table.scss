@@ -1,0 +1,45 @@
+.uk-table {
+  $border-color: #59544f;
+  $table-border: solid 1px $border-color;
+  border: none;
+  text-align: left;
+
+  tr {
+    border-bottom: $table-border;
+  }
+
+  thead {
+    th {
+      font-family: $alter-font-family;
+      line-height: 1.4;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: none;
+      color: rgba(#FFF, .6);
+    }
+  }
+
+  tbody {
+    td {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      letter-spacing: 0.8px;
+
+      &.address {
+        > * {
+          margin: 0 .5rem;
+        }
+      }
+
+      span.open-periods {
+        cursor: pointer;
+        user-select: none;
+        border-bottom: 1px dashed $global-alter-color;
+        transition: all $transition-duration;
+        &:hover {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

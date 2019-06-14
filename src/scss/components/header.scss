@@ -1,0 +1,49 @@
+header {
+  background: $global-alter-background;
+  padding: 0 $template-gutter-padding;
+
+  @media all and (min-width: $breakpoint-small-max) {
+    padding: 0 7rem 0 $template-gutter-padding;
+  }
+
+  .uk-navbar-left {
+    .uk-navbar-nav > li > a {
+      padding: 0;
+    }
+  }
+
+  .uk-navbar-nav > li > a {
+    min-height: $header-height;
+    text-transform: none;
+    font-size: 1.6rem;
+
+    &.uk-active {
+      color: $primary-color;
+      font-weight: bold;
+    }
+  }
+}
+
+#mobile-nav {
+  .uk-offcanvas-bar {
+    background: $global-alter-background;
+    padding-left: 0;
+
+    .uk-offcanvas-close {
+      margin-top: -$modal-close-padding;
+      margin-right: -$modal-close-padding;
+    }
+
+    .uk-nav > li > a {
+      color: $global-color;
+      font-size: 1.6rem;
+      padding-left: $template-gutter-padding;
+      border-left: 3px solid transparent;
+
+      &.uk-active {
+        border-color: $global-alter-color;
+        color: $primary-color;
+      }
+    }
+  }
+}

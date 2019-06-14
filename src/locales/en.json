@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "dao-tools": "DAO tools",
+    "usdq-website": "USDQ/KRWQ website",
+    "scanner": "Scanner",
+    "platinum": "Platinum"
+  },
+  "home": {
+    "title": "All addresses with locked tokens"
+  },
+  "personal-checker": {
+    "title": "Check locked tokens on your address"
+  },
+  "labels": {
+    "address": "Address",
+    "tokens-locked": "Tokens locked",
+    "withdrawable": "Withdrawable",
+    "next-unlock": "Next unlock",
+    "total-locked": "Total locked tokens",
+    "smart-contract": "Smart contract",
+    "eth-address": "ETH address",
+    "btc-amount": "BTC amount",
+    "deposit-index": "Deposit index",
+    "liquidation-percent": "Liquidation percent",
+    "current-rate": "Current rate",
+    "liquidation-rate": "Liquidation rate",
+    "liquidation-fee": "Liquidation fee",
+    "diff-4-customer": "Difference for customer",
+    "tokens-amount": "Amount",
+    "require-tokens": "Require meaning tokens",
+    "date-unlock": "Date of unlock",
+    "will-be-unlocked": "Will be unlocked",
+    "unlocked": "Unlocked",
+    "team": "Team",
+    "withdraw-tokens": "withdraw tokens",
+    "next-unlocks": "Next unlocks",
+    "metamask": "Metamask",
+    "trezor": "Trezor",
+    "no-locks": "You have no locked tokens"
+  },
+  "texts": {
+    "team-address-explain": "We are totally transparent with you, so team Q DAO tokens are locked as any other for years to make you sure in the seriousness of our intentions.",
+    "login-through-metamask": "Login through the metamask to get your tokens",
+    "get-metamask-browser": "Non-Ethereum browser detected. You should consider trying <a href=\"https://metamask.io/\" target=\"_blank\">MetaMask!</a>"
+  }
+}

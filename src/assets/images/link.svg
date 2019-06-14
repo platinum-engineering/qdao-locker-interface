@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>link</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="locked-qdao-check-your-address" transform="translate(-846.000000, -769.000000)" stroke="#FFFFFF">
+            <g id="Group-10-Copy" transform="translate(125.000000, 659.000000)">
+                <g id="Group-5" transform="translate(0.000000, 60.000000)">
+                    <g id="link" transform="translate(728.500000, 57.500000) scale(-1, -1) translate(-728.500000, -57.500000) translate(722.000000, 51.000000)">
+                        <path d="M7.66666667,10 L12,10 C12.5522847,10 13,9.55228475 13,9 L13,1 C13,0.44771525 12.5522847,-1.01453063e-16 12,0 L4,0 C3.44771525,1.01453063e-16 3,0.44771525 3,1 L3,5.33333333" id="Path"></path>
+                        <path d="M6,11.5 L6,7 L1.5,7 M6,7 L0,13" id="Shape" stroke-width="1.2" transform="translate(3.000000, 10.000000) scale(-1, -1) translate(-3.000000, -10.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
