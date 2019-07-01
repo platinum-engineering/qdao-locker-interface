@@ -14,7 +14,7 @@
   "labels": {
     "address": "Address",
     "tokens-locked": "Tokens locked",
-    "withdrawable": "Withdrawable",
+    "withdrawn": "Withdrawn",
     "next-unlock": "Next unlock",
     "total-locked": "Total locked tokens",
     "smart-contract": "Smart contract",
